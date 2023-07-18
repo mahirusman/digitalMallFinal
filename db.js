@@ -1,9 +1,5 @@
 const mongoose = require("mongoose");
 
-// mongoose.connect(
-//   "mongodb+srv://ahmedAli:zxcasdqwe123@cluster0.rg04o.mongodb.net/finalPractical"
-// );
-
 mongoose.connect("mongodb://localhost:27017/digitalMall");
 
 const db = mongoose.connection;
